@@ -5,7 +5,7 @@ package com.example.fundamentals.practica.p05;
 // Spring să creeze o INSTANȚĂ NOUĂ la fiecare cerere/injecție (nu singleton).
 // increment() crește un contor intern; current() întoarce valoarea curentă.
 //
-// Hint: @Scope e tratat în THEORY.md, secțiunea 7.3.
+// Hint: @Scope e tratat în TEORIE.md, secțiunea `@Scope("prototype") (P05)`.
 
 public class RequestCounter {
 
