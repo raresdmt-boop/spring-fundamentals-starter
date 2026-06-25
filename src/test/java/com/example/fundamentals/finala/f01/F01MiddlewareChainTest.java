@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-@SpringBootTest
+@SpringBootTest(classes = F01MiddlewareChainTest.TestConfig.class)
 class F01MiddlewareChainTest {
 
     // Context izolat: scanează DOAR pachetul f01, deci alte exerciții (rezolvate

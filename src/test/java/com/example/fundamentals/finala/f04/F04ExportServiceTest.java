@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-@SpringBootTest
+@SpringBootTest(classes = F04ExportServiceTest.TestConfig.class)
 class F04ExportServiceTest {
 
     // Context izolat: scanează DOAR pachetul f04.

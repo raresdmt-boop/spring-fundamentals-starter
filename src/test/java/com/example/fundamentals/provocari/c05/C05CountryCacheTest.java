@@ -3,12 +3,19 @@ package com.example.fundamentals.provocari.c05;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-@SpringBootTest
+@SpringBootTest(classes = C05CountryCacheTest.Config.class)
 class C05CountryCacheTest {
+
+    @Configuration
+    @ComponentScan
+    static class Config {
+    }
 
     @Autowired
     private CountryCache countryCache;
