@@ -9,9 +9,26 @@ package com.example.fundamentals.finala.f02;
 //   finalPrice("tenoff", 100) -> 90
 //   finalPrice("habar-n-am", 100) -> 100  (rezerva = none)
 
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+import java.util.List;
+@Component
 public class DiscountResolver {
 
-    public int finalPrice(String code, int price) {
-        return 0;
+    private final List<Discount> discountList;
+    public DiscountResolver(List<Discount> discountList) {
+        this.discountList = discountList;
+    }
+
+    public int finalPrice(@Value("${app.discount.fallback:none}")String code, int price) {
+        for(Discount discount : discountList){
+            if(code.equals(discount.toString())){
+                price=discount.apply(price);
+                return price;
+            }
+        }
+
+        return price;
     }
 }

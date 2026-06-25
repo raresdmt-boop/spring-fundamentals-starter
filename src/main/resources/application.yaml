@@ -4,3 +4,7 @@ app:
     unit: "C"
   formatter:
     pattern: "yyyy-MM-dd"
+  discount:
+    fallback: "none"
+  metrics:
+    capacity: "3"
