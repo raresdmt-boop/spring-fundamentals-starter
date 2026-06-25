@@ -1,11 +1,13 @@
 package com.example.fundamentals.practica.p09;
 
-// Cerință: bean Spring care întoarce true dacă username are cel puțin 3 caractere.
+import org.springframework.stereotype.Component;
 
+// Cerință: bean Spring care întoarce true dacă username are cel puțin 3 caractere.
+@Component("usernameValidator")
 public class UsernameLengthValidator implements UserValidator {
 
     @Override
     public boolean isValid(String username, String password) {
-        return false;
+        return username.length() >= 3;
     }
 }

@@ -1,5 +1,8 @@
 package com.example.fundamentals.provocari.c02;
 
+import org.springframework.stereotype.Component;
+
+
 public class RomanianTranslator implements Translator {
 
     @Override

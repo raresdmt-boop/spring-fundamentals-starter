@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="40088153-4c91-47ce-b404-7f9ce88531a7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/ex03/ClockConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/ex03/ClockConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/practica/p01/WeatherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/practica/p01/WeatherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/practica/p02/EnglishTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/practica/p02/EnglishTranslator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/practica/p02/FrenchTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/practica/p02/FrenchTranslator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/practica/p02/Welcomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/practica/p02/Welcomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/practica/p03/DateFormatConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/practica/p03/DateFormatConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/practica/p04/EmailSanitizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/practica/p04/EmailSanitizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/practica/p05/RequestCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/practica/p05/RequestCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/practica/p06/OrderProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/practica/p06/OrderProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/practica/p07/AuditTrail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/practica/p07/AuditTrail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/practica/p08/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/practica/p08/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/practica/p08/ProductCatalogConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/practica/p08/ProductCatalogConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/practica/p09/PasswordStrengthValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/practica/p09/PasswordStrengthValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/practica/p09/UserRegistrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/practica/p09/UserRegistrationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/practica/p09/UsernameLengthValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/practica/p09/UsernameLengthValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/practica/p10/Stopwatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/practica/p10/Stopwatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/provocari/c01/GreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/provocari/c01/GreetingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/provocari/c02/EnglishTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/provocari/c02/EnglishTranslator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/provocari/c02/RomanianTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/provocari/c02/RomanianTranslator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/provocari/c02/Welcomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fundamentals/provocari/c02/Welcomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/fundamentals/ex03/ClockConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/fundamentals/ex03/ClockConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/fundamentals/practica/p01/WeatherService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/fundamentals/practica/p01/WeatherService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/fundamentals/practica/p02/EnglishTranslator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/fundamentals/practica/p02/EnglishTranslator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/fundamentals/practica/p02/FrenchTranslator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/fundamentals/practica/p02/FrenchTranslator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/fundamentals/practica/p02/Welcomer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/fundamentals/practica/p02/Welcomer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/fundamentals/practica/p03/DateFormatConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/fundamentals/practica/p03/DateFormatConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/fundamentals/practica/p04/EmailSanitizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/fundamentals/practica/p04/EmailSanitizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/fundamentals/practica/p05/RequestCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/fundamentals/practica/p05/RequestCounter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/fundamentals/practica/p06/OrderProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/fundamentals/practica/p06/OrderProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/fundamentals/practica/p07/AuditTrail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/fundamentals/practica/p07/AuditTrail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/fundamentals/practica/p08/InventoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/fundamentals/practica/p08/InventoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/fundamentals/practica/p08/ProductCatalogConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/fundamentals/practica/p08/ProductCatalogConfig.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;raresdmt-boop&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/raresdmt-boop/spring-fundamentals-starter.git&quot;,
+    &quot;accountId&quot;: &quot;4be56b05-9533-4020-bd5a-5b660c2f6f36&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="3EgPhwnZaBfYiaGKW4fkS0Jkhcq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FundamentalsApplication.executor": "Run",
+    "JUnit.All in spring-fundamentals-starter.executor": "Run",
+    "JUnit.C01GreetingServiceTest.executor": "Run",
+    "JUnit.C02WelcomerTest.executor": "Run",
+    "JUnit.C03VatCalculatorTest.calculateVatFor100.executor": "Run",
+    "JUnit.C04RequestLoggerTest.executor": "Run",
+    "JUnit.C10ConnectionPoolTest.executor": "Run",
+    "JUnit.P03DateFormatterTest.executor": "Run",
+    "JUnit.P04EmailSanitizerTest.executor": "Run",
+    "JUnit.P05RequestCounterTest.executor": "Run",
+    "JUnit.P08InventoryServiceTest.executor": "Run",
+    "JUnit.P09UserRegistrationServiceTest.executor": "Run",
+    "JUnit.c01 in spring-fundamentals-starter.executor": "Run",
+    "JUnit.com.example.fundamentals in spring-fundamentals-starter.executor": "Run",
+    "JUnit.java in spring-fundamentals-starter.executor": "Run",
+    "JUnit.p01 in spring-fundamentals-starter.executor": "Run",
+    "JUnit.p02 in spring-fundamentals-starter.executor": "Run",
+    "JUnit.p06 in spring-fundamentals-starter.executor": "Run",
+    "JUnit.p07 in spring-fundamentals-starter.executor": "Run",
+    "JUnit.p10 in spring-fundamentals-starter.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/mycode/spring/spring-fundamentals-starter"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.C01GreetingServiceTest">
+    <configuration name="C01GreetingServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-fundamentals-starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.fundamentals.provocari.c01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.fundamentals.provocari.c01" />
+      <option name="MAIN_CLASS_NAME" value="com.example.fundamentals.provocari.c01.C01GreetingServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02WelcomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-fundamentals-starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.fundamentals.provocari.c02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.fundamentals.provocari.c02" />
+      <option name="MAIN_CLASS_NAME" value="com.example.fundamentals.provocari.c02.C02WelcomerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C10ConnectionPoolTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-fundamentals-starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.fundamentals.provocari.c10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.fundamentals.provocari.c10" />
+      <option name="MAIN_CLASS_NAME" value="com.example.fundamentals.provocari.c10.C10ConnectionPoolTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="c01 in spring-fundamentals-starter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-fundamentals-starter" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/com/example/fundamentals/provocari/c01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java in spring-fundamentals-starter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-fundamentals-starter" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.C01GreetingServiceTest" />
+        <item itemvalue="JUnit.C10ConnectionPoolTest" />
+        <item itemvalue="JUnit.java in spring-fundamentals-starter" />
+        <item itemvalue="JUnit.C02WelcomerTest" />
+        <item itemvalue="JUnit.c01 in spring-fundamentals-starter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40088153-4c91-47ce-b404-7f9ce88531a7" name="Changes" comment="" />
+      <created>1780597361908</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1780597361908</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/example/fundamentals/provocari/c03/C03VatCalculatorTest.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

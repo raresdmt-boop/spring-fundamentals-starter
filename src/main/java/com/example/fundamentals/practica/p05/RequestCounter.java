@@ -7,6 +7,11 @@ package com.example.fundamentals.practica.p05;
 //
 // Hint: @Scope e tratat în TEORIE.md, secțiunea `@Scope("prototype") (P05)`.
 
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+@Component
+@Scope("prototype")
 public class RequestCounter {
 
     private int count = 0;
