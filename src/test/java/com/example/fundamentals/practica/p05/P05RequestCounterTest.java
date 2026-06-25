@@ -3,12 +3,19 @@ package com.example.fundamentals.practica.p05;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotSame;
 
-@SpringBootTest
+@SpringBootTest(classes = P05RequestCounterTest.Config.class)
 class P05RequestCounterTest {
+
+    @Configuration
+    @ComponentScan
+    static class Config {
+    }
 
     @Autowired
     private RequestCounter first;

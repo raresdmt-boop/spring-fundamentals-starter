@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-@SpringBootTest
+@SpringBootTest(classes = F04ExportServiceEnterpriseTest.TestConfig.class)
 @ActiveProfiles("enterprise")
 class F04ExportServiceEnterpriseTest {
 

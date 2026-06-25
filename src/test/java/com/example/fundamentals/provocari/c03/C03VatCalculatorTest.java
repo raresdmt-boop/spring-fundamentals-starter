@@ -3,14 +3,21 @@ package com.example.fundamentals.provocari.c03;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.test.context.TestPropertySource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-@SpringBootTest
+@SpringBootTest(classes = C03VatCalculatorTest.Config.class)
 @TestPropertySource(properties = "app.vat.rate=0.19")
 class C03VatCalculatorTest {
+
+    @Configuration
+    @ComponentScan
+    static class Config {
+    }
 
     @Autowired
     private VatCalculator vatCalculator;

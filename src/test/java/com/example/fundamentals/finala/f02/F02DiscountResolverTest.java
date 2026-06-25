@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-@SpringBootTest
+@SpringBootTest(classes = F02DiscountResolverTest.TestConfig.class)
 class F02DiscountResolverTest {
 
     // Context izolat: scanează DOAR pachetul f02.

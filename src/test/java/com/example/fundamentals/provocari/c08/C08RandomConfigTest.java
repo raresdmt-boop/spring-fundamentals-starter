@@ -3,6 +3,8 @@ package com.example.fundamentals.provocari.c08;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.test.context.TestPropertySource;
 
 import java.time.LocalDate;
@@ -12,12 +14,17 @@ import java.util.Random;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-@SpringBootTest
+@SpringBootTest(classes = C08RandomConfigTest.Config.class)
 @TestPropertySource(properties = {
         "app.random.seed=42",
         "app.date.pattern=dd/MM/yyyy"
 })
 class C08RandomConfigTest {
+
+    @Configuration
+    @ComponentScan
+    static class Config {
+    }
 
     @Autowired
     private Random random;

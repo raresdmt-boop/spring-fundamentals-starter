@@ -3,13 +3,20 @@ package com.example.fundamentals.practica.p09;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-@SpringBootTest
+@SpringBootTest(classes = P09UserRegistrationServiceTest.Config.class)
 class P09UserRegistrationServiceTest {
+
+    @Configuration
+    @ComponentScan
+    static class Config {
+    }
 
     @Autowired
     private UserRegistrationService registrationService;
