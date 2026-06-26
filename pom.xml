@@ -25,7 +25,6 @@
         <module>exercitii-rezolvate</module>
         <module>practice</module>
         <module>final</module>
-        <module>debug</module>
         <module>challenge/starter</module>
         <module>challenge/final</module>
     </modules>
