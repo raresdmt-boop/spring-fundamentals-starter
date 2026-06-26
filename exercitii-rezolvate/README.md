@@ -4,8 +4,11 @@ O aplicație Spring Boot care **rulează** (nu doar testează) și imprimă fiec
 
 ## Rulare
 
+Din rădăcina proiectului:
+
 ```bash
-./mvnw spring-boot:run
+./mvnw -pl exercitii-rezolvate spring-boot:run    # rulează demo-ul
+./mvnw -pl exercitii-rezolvate test               # cele 4 teste (verzi)
 ```
 
 Aplicația pornește, afișează ce face, apoi se închide imediat (după ce `CommandLineRunner.run()` se întoarce — nu e server web).
@@ -49,5 +52,5 @@ Lucrând cu teste (`@SpringBootTest`), totul e abstract — vezi `assertEquals` 
 ## Tweaks
 
 - Schimbă `app.greeting` în `application.yaml` → vezi că output-ul se schimbă fără să recompilezi cod.
-- Comentează `@Primary` în `EmailNotifier` → vezi că Spring eșuează la pornire cu `NoUniqueBeanDefinitionException` (același bug ca D02 din `debug/`).
+- Comentează `@Primary` în `EmailNotifier` → vezi că Spring eșuează la pornire cu `NoUniqueBeanDefinitionException`.
 - Comentează `@PostConstruct` în `CacheWarmer` → cache-ul rămâne gol, demo-ul afișează `[]`.
