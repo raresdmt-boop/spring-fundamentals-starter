@@ -1,0 +1,13 @@
+app:
+  greeting: "Hello from yaml"
+
+# Reduce zgomotul în consolă ca să se vadă doar output-ul demo-ului
+spring:
+  main:
+    log-startup-info: false
+    banner-mode: off
+logging:
+  pattern:
+    console: "%msg%n"
+  level:
+    root: OFF

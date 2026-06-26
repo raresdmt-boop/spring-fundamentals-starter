@@ -12,13 +12,23 @@
     </parent>
 
     <groupId>com.example</groupId>
-    <artifactId>spring-fundamentals-starter</artifactId>
+    <artifactId>spring-boot-fundamentals</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-fundamentals-starter</name>
+    <packaging>pom</packaging>
+    <name>spring-boot-fundamentals</name>
 
     <properties>
         <java.version>21</java.version>
     </properties>
+
+    <modules>
+        <module>exercitii-rezolvate</module>
+        <module>practice</module>
+        <module>final</module>
+        <module>debug</module>
+        <module>challenge/starter</module>
+        <module>challenge/final</module>
+    </modules>
 
     <dependencies>
         <dependency>

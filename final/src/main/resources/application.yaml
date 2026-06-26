@@ -1,0 +1,6 @@
+app:
+  greeting: "Hello from application.yaml"
+  weather:
+    unit: "C"
+  formatter:
+    pattern: "yyyy-MM-dd"
