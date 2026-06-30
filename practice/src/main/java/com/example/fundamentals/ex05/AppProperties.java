@@ -8,11 +8,15 @@ package com.example.fundamentals.ex05;
 //      → Dacă proprietatea lipsește din yaml, Spring eșuează la pornire cu
 //        eroare explicită. Poți da default cu @Value("${app.greeting:Hi}").
 
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
 public class AppProperties {
 
     private final String greeting;
 
-    public AppProperties(String greeting) {
+    public AppProperties(@Value("${app.greeting:Hi}")String greeting) {
         this.greeting = greeting;
     }
 

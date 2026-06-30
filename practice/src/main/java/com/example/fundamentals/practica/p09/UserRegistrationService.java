@@ -1,5 +1,7 @@
 package com.example.fundamentals.practica.p09;
 
+import org.springframework.stereotype.Component;
+
 import java.util.List;
 
 // Cerință:
@@ -8,10 +10,21 @@ import java.util.List;
 // implementează UserValidator (fără să specifici @Qualifier sau @Primary).
 // canRegister(username, password) întoarce true doar dacă TOATE validatoarele
 // întorc true.
-
+@Component
 public class UserRegistrationService {
 
+    private final List<UserValidator> userValidators;
+
+    public UserRegistrationService(List<UserValidator> userValidators) {
+        this.userValidators = userValidators;
+    }
+
     public boolean canRegister(String username, String password) {
-        return false;
+        for  (UserValidator userValidator : userValidators) {
+            if(!userValidator.isValid(username, password)) {
+                return false;
+            }
+        };
+        return true;
     }
 }

@@ -1,5 +1,8 @@
 package com.example.fundamentals.ex07;
 
+import jakarta.annotation.PostConstruct;
+import org.springframework.stereotype.Component;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,12 +15,19 @@ import java.util.List;
 //        validări la pornire, conexiuni externe.
 //
 // Importă jakarta.annotation.PostConstruct (NU javax.annotation.* — vechi).
-
+@Component
 public class CacheWarmer {
 
     private final List<String> cache = new ArrayList<>();
 
     public List<String> all() {
         return cache;
+    }
+
+    @PostConstruct
+    private void warmUp(){
+        cache.add("alpha");
+        cache.add("beta");
+        cache.add("gamma");
     }
 }

@@ -10,12 +10,17 @@ package com.example.fundamentals.practica.p10;
 // Înregistrarea trebuie să fie făcută AUTOMAT de Spring după ce bean-ul e
 // construit complet, NU în constructor.
 
+import jakarta.annotation.PostConstruct;
+import org.springframework.stereotype.Component;
+
+@Component
 public class Stopwatch {
 
     private long startedAt;
 
+    @PostConstruct
     public long startedAt() {
-        return startedAt;
+        return System.currentTimeMillis();
     }
 
     public long elapsed() {

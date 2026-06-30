@@ -1,7 +1,9 @@
 package com.example.fundamentals.ex04;
 
-// TODO: Marchează clasa cu @Component("sms").
+import org.springframework.stereotype.Component;
 
+// TODO: Marchează clasa cu @Component("sms").
+@Component("sms")
 public class SmsSender implements NotificationSender {
 
     @Override
