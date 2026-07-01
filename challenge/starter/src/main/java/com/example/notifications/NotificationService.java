@@ -5,7 +5,6 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
-import java.util.Objects;
 
 @Component
 public class NotificationService {
@@ -30,7 +29,7 @@ public class NotificationService {
 
     public String notify(String message) {
 
-        if(message!=null) {
+        if (message != null) {
             String msgChannel = message.split(" ")[0];
             String msgChannelName = msgChannel.split(":")[0];
 
@@ -38,17 +37,24 @@ public class NotificationService {
                 return "BLOCKED: spam detected";
             }
 
-            for(NotificationChannel channel : channels) {
-                if(channel.name().equalsIgnoreCase(msgChannelName)) {
-                    Objects.requireNonNull(auditLogProvider.getIfAvailable()).record(channel.send(message));
-                    return channel.send(message);
+            for (NotificationChannel channel : channels) {
+                if (channel.name().equalsIgnoreCase(msgChannelName)) {
+                    return dispatch(channel, message);
                 }
-                if (msgChannelName.equalsIgnoreCase(channel.name())) {
-                    Objects.requireNonNull(auditLogProvider.getIfAvailable()).record(channel.send(message));
-                    return channel.send(message);
+            }
+
+            for (NotificationChannel channel : channels) {
+                if (channel.name().equalsIgnoreCase(defaultChannel)) {
+                    return dispatch(channel, message);
                 }
             }
         }
         return message;
+    }
+
+    private String dispatch(NotificationChannel channel, String message) {
+        String result = channel.send(message);
+        auditLogProvider.ifAvailable(log -> log.record(result));
+        return result;
     }
 }
