@@ -48,15 +48,6 @@ public class NotificationService {
                     return channel.send(message);
                 }
             }
-
-
-            for (NotificationChannel channel : channels) {
-                if (channel.name().equalsIgnoreCase(defaultChannel)) {
-                    Objects.requireNonNull(auditLogProvider.getIfAvailable()).record(channel.send(message));
-                    return channel.send(message);
-                }
-
-            }
         }
         return message;
     }
