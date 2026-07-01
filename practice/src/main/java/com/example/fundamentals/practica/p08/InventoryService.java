@@ -14,7 +14,7 @@ public class InventoryService {
 
     private final ProductCatalogConfig productCatalog;
 
-    public InventoryService(@Qualifier("productCatalog") ProductCatalogConfig productCatalog) {
+    public InventoryService(@Qualifier("productCatalog1") ProductCatalogConfig productCatalog) {
         this.productCatalog = productCatalog;
     }
 

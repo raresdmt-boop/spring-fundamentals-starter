@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 // Cerință:
 // FrenchTranslator e o alternativă disponibilă în context, dar NU e cea aleasă
 // implicit. greet(name) → "Bonjour, <name>!".
-@Component("french")
+@Component("french2")
 public class FrenchTranslator implements Translator {
 
     @Override

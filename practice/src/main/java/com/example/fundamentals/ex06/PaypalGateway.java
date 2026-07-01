@@ -4,7 +4,7 @@ package com.example.fundamentals.ex06;
 
 import org.springframework.stereotype.Component;
 
-@Component("paypal")
+@Component("paypal1")
 public class PaypalGateway implements PaymentGateway {
 
     @Override

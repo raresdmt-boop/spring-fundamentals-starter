@@ -1,5 +1,8 @@
 package com.example.fundamentals.provocari.c09;
 
+import org.springframework.stereotype.Component;
+
+@Component("card3")
 public class CardPayment implements PaymentStrategy {
 
     @Override

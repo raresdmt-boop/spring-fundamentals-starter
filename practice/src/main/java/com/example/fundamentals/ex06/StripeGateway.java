@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 //   2. Adaugă și @Primary peste @Component. Spring va alege această implementare
 //      ca default când există mai multe bean-uri de tip PaymentGateway și
 //      consumatorul NU specifică @Qualifier.
-@Component("stripe")
+@Component("stripe1")
 @Primary
 public class StripeGateway implements PaymentGateway {
 

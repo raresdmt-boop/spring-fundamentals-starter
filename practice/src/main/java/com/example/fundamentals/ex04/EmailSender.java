@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 // TODO: Marchează clasa cu @Component("email").
 // Numele explicit "email" îl vom referi în Alerts prin @Qualifier.
-@Component("email")
+@Component("email1")
 public class EmailSender implements NotificationSender {
 
     @Override

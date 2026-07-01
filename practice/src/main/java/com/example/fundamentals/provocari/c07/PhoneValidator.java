@@ -1,5 +1,8 @@
 package com.example.fundamentals.provocari.c07;
 
+import org.springframework.stereotype.Component;
+
+@Component("phone3")
 public class PhoneValidator implements Validator {
 
     @Override

@@ -12,7 +12,7 @@ import java.util.List;
 //
 // Hint: când publici un List ca @Bean, Spring distinge bean-ul după numele
 // metodei, nu după tipul generic. Folosește @Qualifier la consumator.
-@Component("productCatalog")
+@Component("productCatalog1")
 public class ProductCatalogConfig {
 
     public List<String> productCatalog() {

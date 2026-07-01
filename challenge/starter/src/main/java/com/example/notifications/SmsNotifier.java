@@ -1,14 +1,17 @@
 package com.example.notifications;
 
+import org.springframework.stereotype.Component;
+
+@Component("sms")
 public class SmsNotifier implements NotificationChannel {
 
     @Override
     public String name() {
-        throw new UnsupportedOperationException("TODO");
+        return "sms";
     }
 
     @Override
     public String send(String message) {
-        throw new UnsupportedOperationException("TODO");
+        return "SMS: " + message;
     }
 }

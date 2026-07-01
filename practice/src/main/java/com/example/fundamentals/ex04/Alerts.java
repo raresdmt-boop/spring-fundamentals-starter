@@ -16,7 +16,7 @@ public class Alerts {
 
     private final NotificationSender sender;
 
-    public Alerts(@Qualifier("email") NotificationSender sender) {
+    public Alerts(@Qualifier("email1") NotificationSender sender) {
         this.sender = sender;
     }
 

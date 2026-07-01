@@ -1,3 +1,7 @@
 app:
   notifications:
-    default-channel: email
+    default-channel: "email"
+
+spring:
+  profiles:
+    active: audit

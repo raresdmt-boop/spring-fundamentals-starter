@@ -1,14 +1,17 @@
 package com.example.notifications;
 
+import org.springframework.stereotype.Component;
+
+@Component("slack")
 public class SlackNotifier implements NotificationChannel {
 
     @Override
     public String name() {
-        throw new UnsupportedOperationException("TODO");
+        return "slack";
     }
 
     @Override
     public String send(String message) {
-        throw new UnsupportedOperationException("TODO");
+        return "SLACK: " + message;
     }
 }

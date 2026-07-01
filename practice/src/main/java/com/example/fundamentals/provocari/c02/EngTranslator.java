@@ -3,7 +3,7 @@ package com.example.fundamentals.provocari.c02;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
-@Component("english")
+@Component("english3")
 @Primary
 public class EngTranslator implements Translator {
 
